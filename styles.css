@@ -1,0 +1,29 @@
+body {
+    /* Requirement 10: Top and bottom padding of 50px */
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    /* Requirement 11: Top and bottom margin of 0 */
+    margin-top: 0;
+    margin-bottom: 0;
+
+    /* Requirement 12: Left and right margin of auto */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Requirement 13: Width set using vw */
+    width: 80vw;
+
+    /* Requirement 14: Min-height set to 100vh - 100px using calc */
+    min-height: calc(100vh - 100px);
+}
+
+/* Requirement 16: Width of hr elements set using a percent value */
+hr {
+    width: 50%;
+}
+
+/* Requirement 17: Width of section elements set using a percent value */
+section {
+    width: 100%;
+}
